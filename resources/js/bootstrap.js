@@ -45,7 +45,7 @@ window.Echo = new Echo({
     enabledTransports: ['ws', 'wss'],
 });
 
-window.Echo.channel('DemoChannel')
+window.Echo.channel('chat')
     .listen('WebsocketDemoEvent', (e) => {
         console.log("XreachedX")
         console.log(e);
